@@ -1,6 +1,6 @@
 {
-  "name": "@ldn0x7dc/react-native-slider",
-  "version": "0.0.3",
+  "name": "@vitalyrotari/react-native-slider",
+  "version": "0.0.4",
   "description": "",
   "main": "library/Slider.js",
   "scripts": {
@@ -8,15 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ldn0x7dc/react-native-slider.git"
+    "url": "git+https://github.com/vitalyrotari/react-native-slider.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ldn0x7dc/react-native-slider/issues"
+    "url": "https://github.com/vitalyrotari/react-native-slider/issues"
   },
-  "homepage": "https://github.com/ldn0x7dc/react-native-slider#readme",
+  "homepage": "https://github.com/vitalyrotari/react-native-slider#readme",
   "dependencies": {
-    "react-native-gesture-responder": "0.0.10"
+    "react-native-gesture-responder": "0.0.10",
+    "prop-types": "^15.6.1"
   }
 }
