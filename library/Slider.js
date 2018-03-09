@@ -1,6 +1,8 @@
-import React, { PropTypes, Component } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import {
   View,
+  ViewPropTypes,
   Image,
   Platform
 } from 'react-native';
@@ -10,7 +12,7 @@ import {createResponder} from 'react-native-gesture-responder';
 export default class Slider extends Component {
 
   static propTypes = {
-    ...View.propTypes,
+    ...ViewPropTypes,
     minimumValue: PropTypes.number,
     maximumValue: PropTypes.number,
     value: PropTypes.number,
